@@ -68,7 +68,7 @@ export default function Start() {
       {user ? (
         <button className="sign-out-btn btn"  onClick={handelLogout}>sign out</button>
       ) : (
-        <Link to="login" className="login-btn btn">login</Link>
+        <Link data-testid="login" to="login" className="login-btn btn">login</Link>
       )}
 
       <Link to="register" className="register-btn btn">register</Link>
