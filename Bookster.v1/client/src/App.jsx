@@ -8,7 +8,7 @@ import Dashboard from "./pages/Dashboard"
 
 export default function App() {
   return (
-    <>
+    <BrowserRouter>
     <Routes>
       <Route path="/" element={<Start/>}/>
       <Route path="/login" element={<LoginForm/>}/>
@@ -16,7 +16,7 @@ export default function App() {
       <Route path="/admin/dashboard" element={<Dashboard/>}/>
     </Routes>
     
-    </>
+    </BrowserRouter>
   )
   }
 
