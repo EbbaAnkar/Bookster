@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 import Start from "./pages/start"
 import LoginForm from "./pages/login"
